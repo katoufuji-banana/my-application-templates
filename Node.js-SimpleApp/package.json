@@ -1,0 +1,28 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel ./src --out-dir ./dist",
+    "watch": "babel ./src --out-dir ./dist --watch",
+    "test": "jest ./test --silent=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://you-repository-url"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://you-repository-url/issues"
+  },
+  "homepage": "https://+you-repository-url#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "jest": "^26.0.0"
+  }
+}

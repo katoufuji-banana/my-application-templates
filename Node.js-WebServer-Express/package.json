@@ -1,0 +1,32 @@
+{
+  "name": "your-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "babel ./src --out-dir ./dist",
+    "watch": "babel ./src --out-dir ./dist --watch",
+    "test": "jest ./test --silent=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://your-git-repository/your-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://your-git-repository/your-webapp/issues"
+  },
+  "homepage": "https://your-git-repository/your-webapp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^4.0.0",
+    "morgan": "^1.10.0"
+  }
+}
