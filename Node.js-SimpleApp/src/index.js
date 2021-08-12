@@ -1,5 +1,7 @@
-export const getHelloWorldStr = () => "Hello world!"
+const HELLO_WORLD_STR = "Hello world!"
 
-if (!module.parent){
+export const getHelloWorldStr = () => HELLO_WORLD_STR
+
+if (!module.main){
     console.log(getHelloWorldStr());
 }

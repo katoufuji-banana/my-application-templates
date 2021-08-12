@@ -23,6 +23,8 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-rewire": "^1.0.0",
     "jest": "^26.0.0"
   }
 }

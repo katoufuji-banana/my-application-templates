@@ -4,7 +4,7 @@ import morgan from "morgan";
 import path from "path";
 import yaml from "js-yaml";
 
-import { helloWorld, echo } from "./controller";
+import { helloWorld, echo } from "@/controller";
 
 const encoding = "utf8"
 const filePath = path.resolve('./config/app.yaml')
