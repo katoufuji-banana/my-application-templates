@@ -3,8 +3,11 @@ import fs from "fs";
 import morgan from "morgan";
 import path from "path";
 import yaml from "js-yaml";
+import DOTENV from "dotenv";
 
 import { helloWorld, echo } from "@/controller";
+
+DOTENV.config();
 
 const encoding = "utf8"
 const filePath = path.resolve('./config/app.yaml')

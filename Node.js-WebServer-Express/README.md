@@ -2,9 +2,10 @@
 
 ## Technology Stack
 
-- Express
 - Node.js
+- Express
 - Babel v.7.x.x
+- npm or yarn
 
 ## Usecase
 
@@ -13,29 +14,30 @@
 ## Quick start
 
 1. Download this project code.
-2. Move to the directory where there is the package.json.
-3. Execute the command whichever you like.
+2. add ".env" to your .gitignore
+3. Move to the directory where there is the package.json.
+4. Execute the command whichever you like.
    ```
    npm install
    yarn install
    ```
-4. Feel free to write your code. The entry point is ./src/app.js.
-5. If you want, write your test code and test it.
+5. Feel free to write your code. The entry point is ./src/app.js.
+6. If you want, write your test code and test it.
    ```
    npm test
    yarn test
    ```
-6. Build your code with this command.
+7. Build your code with this command.
    ```
    npm build
    yarn build
    ```
-7. Run the web server.
+8. Run the web server.
    ```
    npm start
    yarn start
    ```
-8. Try to call your server's API.
+9. Try to call your server's API.
    ```
    curl http://localhost:80/hello
    ```

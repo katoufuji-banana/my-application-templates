@@ -6,6 +6,7 @@
 - react-use
 - axios
 - webpack v.5.x.x (babel-loader, style-loader, sass-loader)
+- npm or yarn
 
 ## Usecase
 

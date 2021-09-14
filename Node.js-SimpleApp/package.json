@@ -26,5 +26,8 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-rewire": "^1.0.0",
     "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
